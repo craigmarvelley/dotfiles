@@ -5,6 +5,9 @@ syntax on
 filetype plugin indent on
 
 set number
+set expandtab
+set shiftwidth=2
+set softtabstop=2
 
 let g:tagbar_ctags_bin='/opt/local/bin/ctags'
 let g:tagbar_width=26
