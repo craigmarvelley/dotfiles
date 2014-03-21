@@ -21,5 +21,6 @@
   filemode = false
 [merge]
   ff = only
+  tool = kdiff3
 [include]
   path = .gitconfig.local
