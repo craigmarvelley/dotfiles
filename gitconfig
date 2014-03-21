@@ -24,3 +24,5 @@
   tool = kdiff3
 [include]
   path = .gitconfig.local
+[mergetool]
+  keepBackup = false
