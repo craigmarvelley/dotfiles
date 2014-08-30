@@ -26,3 +26,6 @@
   path = .gitconfig.local
 [mergetool]
   keepBackup = false
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
